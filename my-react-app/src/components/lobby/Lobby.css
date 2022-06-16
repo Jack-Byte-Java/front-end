@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2em;
+    row-gap: 2em;
+    justify-content: space-around;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    min-width: 40vh;
+    
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 3em;
+  }
+
+  select {
+      margin-bottom: 1em;
+  }
+
+  label {
+      margin: 1em;
+  }
+  form {
+      margin-top: 1em;
+  }
